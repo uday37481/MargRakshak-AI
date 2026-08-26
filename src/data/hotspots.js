@@ -1,0 +1,93 @@
+export const mockHotspots = [
+  {
+    id: 1,
+    name: "Dwarka Circle",
+    lat: 19.9912,
+    lng: 73.8015,
+    riskLevel: "CRITICAL",
+    riskScore: 0.95,
+    density: 18.4,
+    accidentCount: 84,
+    riskFactors: ["Heavy Congestion", "Intersector Merging", "Pedestrian Crossing Lack"],
+    algorithm: "HDBSCAN",
+    lastUpdated: "2026-08-20 14:30"
+  },
+  {
+    id: 2,
+    name: "Nashik Road (Bitco Point)",
+    lat: 19.9678,
+    lng: 73.8315,
+    riskLevel: "HIGH",
+    riskScore: 0.81,
+    density: 12.6,
+    accidentCount: 52,
+    riskFactors: ["Poor Illumination", "Speeding Trucks", "Railway Station Traffic"],
+    algorithm: "HDBSCAN",
+    lastUpdated: "2026-08-21 11:15"
+  },
+  {
+    id: 3,
+    name: "Mumbai Naka",
+    lat: 19.9882,
+    lng: 73.7828,
+    riskLevel: "MEDIUM",
+    riskScore: 0.58,
+    density: 8.9,
+    accidentCount: 31,
+    riskFactors: ["Flyover Entry Congestion", "Lane Merging", "Active Construction"],
+    algorithm: "HDBSCAN",
+    lastUpdated: "2026-08-19 09:45"
+  },
+  {
+    id: 4,
+    name: "Gangapur Road (Jehan Circle)",
+    lat: 20.0162,
+    lng: 73.7745,
+    riskLevel: "LOW",
+    riskScore: 0.28,
+    density: 4.1,
+    accidentCount: 12,
+    riskFactors: ["Blind Curve", "Wet Surface during Monsoons"],
+    algorithm: "HDBSCAN",
+    lastUpdated: "2026-08-22 17:00"
+  },
+  {
+    id: 5,
+    name: "CBS Signal",
+    lat: 19.9967,
+    lng: 73.7836,
+    riskLevel: "MEDIUM",
+    riskScore: 0.62,
+    density: 10.1,
+    accidentCount: 38,
+    riskFactors: ["Bus Depot Exit", "High Pedestrian Density", "Signal Disobedience"],
+    algorithm: "HDBSCAN",
+    lastUpdated: "2026-08-23 08:30"
+  },
+  {
+    id: 6,
+    name: "College Road (BYK Circle)",
+    lat: 20.0084,
+    lng: 73.7635,
+    riskLevel: "LOW",
+    riskScore: 0.24,
+    density: 3.5,
+    accidentCount: 8,
+    riskFactors: ["Two-Wheeler Overspeeding", "Illegal Parking"],
+    algorithm: "DBSCAN",
+    lastUpdated: "2026-08-24 16:20"
+  },
+  {
+    id: 7,
+    name: "Pathardi Phata",
+    lat: 19.9485,
+    lng: 73.7630,
+    riskLevel: "HIGH",
+    riskScore: 0.79,
+    density: 13.2,
+    accidentCount: 47,
+    riskFactors: ["Highway Crossing", "Heavy Goods Vehicles", "Foggy Conditions"],
+    algorithm: "HDBSCAN",
+    lastUpdated: "2026-08-18 21:10"
+  }
+];
